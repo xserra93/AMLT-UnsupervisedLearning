@@ -1,0 +1,4 @@
+- A 1-D vector X={x1,x2,...,xn} can be checked against a Gaussian (or other prob. distr.) easily: P(x|mu, theta)=(1/sqrt(2pi·theta^2)^-(blabla)
+- Therefore, we can have P(C1), probability cluster follows certain distribution.
+- Therefore, we can have overall probability that set clusters follow certain distributions.
+- We look for most similar clusters according to log(P(Ci U Cj)/(P(Ci)·P(Cj))) (this must be high). If > 0, merge, otherwise, stop
